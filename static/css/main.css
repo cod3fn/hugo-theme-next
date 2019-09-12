@@ -500,7 +500,7 @@ pre,
 }
 pre,
 code {
-  font-family: 'PT Mono', consolas, Menlo, "PingFang SC", "Microsoft YaHei", monospace;
+  font-family: 'droid sans mono','fira code', consolas, Menlo, "PingFang SC", "Microsoft YaHei", monospace;
 }
 code {
   padding: 2px 4px;
@@ -1054,11 +1054,11 @@ pre .javascript .function {
   }
   .post-body pre,
   .post-body .highlight {
-    padding: 10px;
+    padding: 2px;
   }
   .post-body pre .gutter pre,
   .post-body .highlight .gutter pre {
-    padding-right: 10px;
+    padding-right: 2px;
   }
 }
 @media (min-width: 992px) {
