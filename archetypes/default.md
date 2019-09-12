@@ -1,10 +1,10 @@
 ---
-title: "xxxx"
-date: "2017-02-03"
-categories:
- - "xx"
-tags:
- - "xxx"
- - "xxx"
+title: "{{ replace .Name "-" " " | title }}"
+date: "{{ .Date }}"
 toc: true
+categories:
+ - "编程"
+tags:
+ - "code"
 ---
+### 
