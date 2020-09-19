@@ -10,13 +10,13 @@
     {{ with .Site.Author.Name }}<meta name="author" content="{{ . }}">{{ end }}
     <meta property="og:title" content="{{ if ne .Permalink " / " }}{{ .Title }}{{else}}{{ .Site.Title }}{{end}}">
     <meta property="og:site_name" content="{{ .Site.Title }}">
-    <meta property="og:image" content="/img/author.jpg"> 
+    <meta property="og:image" content="/img/avatar.png"> 
     <meta name="title" content="{{ if ne .Permalink " / " }}{{ .Title }} - {{ end }}{{ .Site.Title }}" />
     {{ with .Description }}<meta name="description" content="{{ . }}" />
     {{ else }}<meta name="description" content="{{ .Site.Params.Description }}">{{ end }} 
     <link rel="shortcut icon" href="/img/favicon.ico" />
-    <link rel="apple-touch-icon" href="/img/apple-touch-icon.png" />
-    <link rel="apple-touch-icon-precomposed" href="/img/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" href="/img/avatar.png" />
+    <link rel="apple-touch-icon-precomposed" href="/img/avatar.png" />
     <link href="https://cdn.jsdelivr.net/npm/typeface-merriweather@0.0.72/index.min.css" rel="stylesheet" type="text/css" />
     <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
     {{ if and .Site.Params.Fancybox .IsPage}}<link href="https://cdn.jsdelivr.net/npm/fancybox@2.1.5/dist/css/jquery.fancybox.css" rel="stylesheet" type="text/css" />{{ end }}
